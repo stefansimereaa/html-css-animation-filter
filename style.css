@@ -13,41 +13,80 @@
 
 /* Exercise 2 */
 
-.ex-2-square {
+.ex-2-square{
     width: 100px;
     height: 100px;
     background: red;
     transition: 0,5s;
 }
 
-.ex-2-square:active {
+.ex-2-square:active{
     width: 100%;
 }
 
 /* Exercise 3 */
 
-.ex-3-square {
+.ex-3-square{
     width: 100px;
     height: 100px;
     background: red;
     transition: 5s;
 }
 
-.ex-3-square:hover {
+.ex-3-square:hover{
     border-radius: 100%;
 }
 
-
-
-
-
 /* Exercise 4 */
+
+.ex-4-square{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
 
 /* Exercise 5 */
 
+.ex-5-square{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(4);
+}
+
 /* Exercise 6 */
 
+.ex-6-img{
+    width: 500px;
+    transition: 2s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
 /* Exercise 7 */
+
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(.9) sepia(.8) brightness(.2);
+}
 
 /* Exercise 8 */
 
@@ -65,17 +104,6 @@
 
 
 
-.ex-4-square {
-    width: 100px;
-    height: 100px;
-    background: red;
-}
-.ex-5-square {
-    margin: 20px;
-    width: 60px;
-    height: 60px;
-    background: red;
-}
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
