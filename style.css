@@ -103,7 +103,7 @@
 
 /* Exercise 9 */
 
-.ex-9-img {
+.ex-9-img{
     margin: 50px 100px;
     width: 400px;
     transition: 3s;
@@ -118,7 +118,7 @@
 
 /* Exercise 10 */
 
-.ex-10-icon {
+.ex-10-icon{
     font-size: 60px;
     animation: rotate 1s linear infinite;
 }
@@ -134,7 +134,7 @@
 
 /* Exercise 11 */
 
-.ex-11-icon {
+.ex-11-icon{
     font-size: 60px;
 }
 
@@ -156,7 +156,7 @@
 
 /* Exercise 12 */
 
-.ex-12-icon {
+.ex-12-icon{
     font-size: 60px;
 }
 
@@ -192,7 +192,7 @@
 
 /* Animation */
 
-.ex-12-button:hover .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white{
     animation: movetopwhite 1s linear infinite;
 }
 @keyframes movetopwhite {
@@ -207,7 +207,7 @@
     }
 }
 
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white{
     animation: movebotwhite 1s linear infinite;
 }
 @keyframes movebotwhite {
@@ -224,7 +224,7 @@
 
 /* Exercise 13 */
 
-.ex-13-icon {
+.ex-13-icon{
     font-size: 60px;
 }
 
@@ -260,10 +260,10 @@
 
 /* Animation */
 
-.ex-13-button:hover .ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white{
     animation: movetopwhite 1s linear infinite;
 }
-@keyframes movetopwhite {
+@keyframes movetopwhite{
     0% {
         left: 10%;
         top: -10px;
@@ -289,7 +289,7 @@
         top: -10px;
     }
 }
-.ex-13-button:hover .ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white{
     animation: movebotwhite 1s linear infinite;
 }
 
