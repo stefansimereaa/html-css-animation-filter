@@ -65,59 +65,104 @@
 }
 
 .ex-5-square:active{
-    transform: scale(4);
+    transform: scale(3.5);
 }
 
 /* Exercise 6 */
 
 .ex-6-img{
     width: 500px;
-    transition: 2s;
+    transition: 1s;
 }
 
-.ex-6-img:hover {
+.ex-6-img:hover{
     filter: grayscale(1);
 }
 
 /* Exercise 7 */
 
-.ex-7-img {
-    transition: 2s;
+.ex-7-img{
+    transition: 1s;
+    width: 500px;
 }
-.ex-7-img:hover {
+.ex-7-img:hover{
     filter: grayscale(.9) sepia(.8) brightness(.2);
 }
 
 /* Exercise 8 */
 
-/* Exercise 9 */
-
-/* Exercise 10 */
-
-/* Exercise 11 */
-
-/* Exercise 12 */
-
-/* Exercise 13 */
-
-
-
-
-
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-8-img{
+    transition: 1s;
     width: 500px;
 }
+
+.ex-8-img:hover{
+    filter: grayscale(.6) sepia(.4) brightness(.6);
+    border-radius: 30px;
+}
+
+/* Exercise 9 */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(.6) sepia(.4) brightness(.6);
+    border-radius: 40px;
+    transform: scale(2.5);
+}
+
+
+/* Exercise 10 */
+
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s linear infinite;
 }
+
+@keyframes rotate{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+/* Exercise 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: rotateOnHover 2s linear infinite;
+}
+
+@keyframes rotateOnHover{
+    0% {
+        transform: rotate(0);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+/* Exercise 12 */
+
+
+
+/* Exercise 13 */
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
