@@ -261,9 +261,9 @@
 /* Animation */
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 1s linear infinite;
+    animation: movetopwhite 1s linear infinite;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes movetopwhite {
     0% {
         left: 10%;
         top: -10px;
@@ -290,9 +290,10 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 1s linear infinite;
+    animation: movebotwhite 1s linear infinite;
 }
-@keyframes moveBottomWhiteCompletely {
+
+@keyframes movebotwhite{
     0% {
         bottom: -10px;
         right: 20%;
